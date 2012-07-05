@@ -12,7 +12,7 @@
         "url": "https://github.com/dahuocang/npmrepo.git"
     },
     "dependencies": {
-        "socket.io": "socket.io@0.9.6"
+        "socket.io": "0.9.6"
     },
     "engines": { "node": "*" }
 }
