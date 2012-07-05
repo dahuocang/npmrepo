@@ -1,0 +1,18 @@
+{
+    "name": "doctransfer",
+    "version": "0.0.1",
+    "description": "Node.js module to transfer documents between client and server",
+    "preferGlobal": "true",
+    "main": "index.js",
+    "bin": { "doctransfer": "index.js" },
+    "author": "Tony Yin ",
+    "keywords": ["documents", "upload", "push"],
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/dahuocang/npmrepo.git"
+    },
+    "dependencies": {
+        "socket.io": "socket.io@0.9.6"
+    },
+    "engines": { "node": "*" }
+}
