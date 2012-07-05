@@ -4,4 +4,4 @@
 * MIT Licensed
 */
 
-module.exports = require('./lib/doctransfer');
+module.exports = require('./lib/lognj');
