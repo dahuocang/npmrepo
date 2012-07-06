@@ -9,6 +9,15 @@ var doct=require('lognj');
 
 var l=doct.getLogger('filelog','/tmp/log/'); //if you want to log into a file 
 var l=doct.getLogger('dblog','mydb','log'); // log into db...currently only mongodb is supported  'mydb' is database name and 'log' is collection name
+var l=doct.getLogger('socketlog','16.186.7.38:3000');
+and the codes on the other server side shoule be 
+  socket.on('debug', function (data) {console.log(data.data) ;});
+  socket.on('error', function (data) {console.log(data.data) ;});
+  socket.on('info', function (data) {console.log(data.data) ;});
+  socket.on('warn', function (data) {console.log(data.data) ;});
+  
+  data.data is the log msg you have send through the socket
+  
 var l=doc.getLogger();  //do nothing log into command line
 
 
