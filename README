@@ -2,7 +2,7 @@ Simple Logger
 
 How to use
 
-npm install logNj
+npm install lognj
 
 var doct=require('lognj');
 
