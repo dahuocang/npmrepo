@@ -8,7 +8,7 @@ var doct=require('lognj');
 
 
 var l=doct.getLogger('filelog','/tmp/log/'); //if you want to log into a file 
-var l=doct.getLogger('dblog','mydb','log'); // log into db...currently only mongodb is supported
+var l=doct.getLogger('dblog','mydb','log'); // log into db...currently only mongodb is supported  'mydb' is database name and 'log' is collection name
 var l=doc.getLogger();  //do nothing log into command line
 
 
