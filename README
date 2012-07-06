@@ -1,0 +1,15 @@
+Simple Logger 
+
+How to use
+
+npm install logNj
+
+var doct=require('lognj');
+
+
+var l=doct.getLogger('filelog','/tmp/log/'); //if you want to log into a file 
+var l=doct.getLogger('dblog','mydb','log'); // log into db...currently only mongodb is supported
+var l=doc.getLogger();  //do nothing log into command line
+
+
+it has debug(logmsg) error(logmsg) info(logmsg) warn(logmsg)  trunOffDebug() turnOffInfo() turnOffWarnning() methods
