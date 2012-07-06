@@ -1,6 +1,6 @@
 {
     "name": "lognj",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Node.js module to make logging life easier",
     "preferGlobal": "true",
     "main": "index.js",
@@ -12,7 +12,8 @@
         "url": "https://github.com/dahuocang/npmrepo.git"
     },
     "dependencies": {
-        "mongojs":"0.4.3"
+        "mongojs":"0.4.3",
+        "socket-io.client":"0.9.6"
     },
     "engines": { "node": "*" }
 }
