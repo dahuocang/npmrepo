@@ -1,5 +1,5 @@
 {
-    "name": "logNj",
+    "name": "lognj",
     "version": "0.0.1",
     "description": "Node.js module to make logging life easier",
     "preferGlobal": "true",
