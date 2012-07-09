@@ -1,6 +1,6 @@
 {
     "name": "lognj",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "description": "Node.js module to make logging life easier",
     "preferGlobal": "true",
     "main": "index.js",
@@ -13,7 +13,7 @@
     },
     "dependencies": {
         "mongojs":"0.4.3",
-        "socket-io.client":"0.9.6"
+        "socket.io-client":"0.9.6"
     },
     "engines": { "node": "*" }
 }
